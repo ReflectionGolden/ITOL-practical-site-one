@@ -15,11 +15,18 @@ p {
 #introduction {
     border: 5px outset blue;
     padding: 20px;
-    width: 70%;
+    max-width: fit-content;
+    margin-inline: auto;
 }
 
 #logo {
-    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    margin-inline: auto;
+    width: fit-content;
+    height: fit-content;
     border: 2px outset yellow;
     background-color: #292929;
 }
@@ -29,11 +36,44 @@ p {
     background-color: #585858;
 }
 
+/* Navigation Styles */
 nav {
-    font-size: 32px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0px;
+    z-index: 1000;
+    background-color: rgba(30, 41, 57, 0.95);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 
-.navlink {
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #e5e3df;
     text-decoration: none;
-    color: green;
+    transition: color 0.3s, border-bottom 0.3s;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+nav a:hover {
+    color: aqua;
+    border-bottom: 2px outset #e5e3df;
 }
