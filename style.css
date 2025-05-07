@@ -2,10 +2,29 @@
     font-size: 32px;
     color: #dc143c;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
 }
 
 p {
     font-size: 24px;
-    color: rgb(21, 136, 172);
+    color: rgb(28, 153, 190);
     font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#introduction {
+    border: 5px outset blue;
+    padding: 20px;
+    width: 70%;
+}
+
+#logo {
+    float: right;
+    border: 2px outset yellow;
+    background-color: #292929;
+}
+
+.generictext {
+    border: 10px outset gray;
+    background-color: #585858;
 }
