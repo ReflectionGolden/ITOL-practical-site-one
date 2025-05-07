@@ -29,6 +29,10 @@ p {
     background-color: #585858;
 }
 
-ul {
+nav {
     font-size: 32px;
+}
+
+.navlink {
+    text-decoration: none;
 }
