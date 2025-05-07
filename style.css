@@ -28,3 +28,7 @@ p {
     border: 10px outset gray;
     background-color: #585858;
 }
+
+ul {
+    font-size: 32px;
+}
