@@ -37,7 +37,7 @@ section h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 64px auto;
+    margin: 64px auto 0px;
     width: fit-content;
 }
 
