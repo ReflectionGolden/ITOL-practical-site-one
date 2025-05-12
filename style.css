@@ -81,3 +81,8 @@ nav a:hover {
     color: aqua;
     border-bottom: 2px outset #e5e3df;
 }
+
+a.selected {
+    color: aqua;
+    border-bottom: 2px outset #e5e3df;
+}
