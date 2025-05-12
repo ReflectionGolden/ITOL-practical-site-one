@@ -78,11 +78,11 @@ nav a {
 }
 
 nav a:hover {
-    color: aqua;
+    color: #46A9E0;
     border-bottom: 2px outset #e5e3df;
 }
 
 a.selected {
-    color: aqua;
+    color: #46A9E0;
     border-bottom: 2px outset #e5e3df;
 }
