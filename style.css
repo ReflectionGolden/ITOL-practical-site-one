@@ -7,10 +7,12 @@ body {
 
 h1 {
     font-size: 2.5rem;
+    margin-bottom: 2rem;
 }
 
 h2 {
     font-size: 1.4rem;
+    margin-bottom: 1.12rem;
 }
 
 section h2 {
@@ -66,8 +68,65 @@ a.selected {
     border-bottom: 2px outset #e5e3df;
 }
 
-/* IDs and Classes */
+/* Header Section Styles */
+.header-container {
+    border: #46A9E0 solid 2px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 75vh;
+    width: 75vw;
+    align-items: center;
+    margin: 50px auto 10px;
+    background-image: url("images/magium-recrystal.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
 
+.header-container::before {
+    content: "";
+    border-radius: 10px;
+    position: absolute;
+    display: flex;
+    height: 75vh;
+    width: 75vw;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 0;
+}
+
+.header-content, .header-button {
+    z-index: 1;
+    text-shadow: 0.1rem 0.1rem black;
+}
+
+/* Header Section Styles - Button */
+header button {
+    border: 3px solid #e5e3df;
+    border-radius: 0.3rem;
+    background-color: transparent;
+    padding: 0.75rem;
+    font-size: 1.4rem;
+    color: #e5e3df;
+    transition: 0.1s;
+}
+
+header button:hover {
+    border: 5px solid #a5a39f;
+    color: #46A9E0;
+    text-shadow: 0.2rem 0.2rem black;
+    box-shadow: 0.2rem 0.2rem black;
+    background-color: rgba(30, 41, 57, 0.5);
+}
+
+header button:active {
+    transform: translate(1px, 3px);
+    text-shadow: none;
+    box-shadow: none;
+}
+
+/* IDs and Classes */
 #introduction {
     background-color: rgba(255, 255, 255, 0.05);
     padding: 20px;
@@ -80,12 +139,4 @@ a.selected {
 
 #description {
     line-height: 1.6;
-}
-
-#logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 64px auto 0px;
-    width: fit-content;
 }
