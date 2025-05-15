@@ -3,14 +3,14 @@
 
 <head>
     <title>Magium Home</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Page for introducing the Magium choose your own adventure books and game.">
+    <meta name="keywords" content="Magium, book, books, game, choose your own adventure, cyoa, CYOA, magic, fantasy">
+    <meta name="author" content="Jay Richards">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="style.css">
-    <style>
-        h1 {
-            font-size: 64px;
-            color: blueviolet;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
 <body>
@@ -25,14 +25,19 @@
         </ul>
     </nav>
 
-    <!-- The div containing the Magium Recrystallized logo, made so it is pushed to the right and the background is a dark grey for easy viewing -->
-    <div id="logo">
-        <img src="Images/Magium-Recrystal.png" alt="The image used by the Magium Recrystallized project, one of the re-implementations being made. It is a swirl of yellow ethereal light, and is based on the original Magium logo which was the same but in a light blue colour.">
-    </div>
+    <!-- This is the header -->
+    <header class="home-header">
+        <div class="header-content">
+            <h1>Magium: The Mage Tournament</h1>
+        </div>
+        <div class="header-button">
+            <button onclick="document.location='projects.html'">Play Magium Now</button>
+        </div>
+    </header>
 
-    <!-- the introduction title and paragraph -->
+    <!-- the basic introduction for Magium -->
     <section id="introduction">
-        <h2>Magium: A Fantasy Choose Your Own Adventure Game</h2>
+        <h2 id="change">Magium: A Fantasy Choose Your Own Adventure Game</h2>
         <!-- This paragraph gives an initial description of Magium -->
         <p id="description">
             <strong>Magium</strong> is a Choose Your Own Adventure game in the Fantasy genre, which was originally
@@ -43,6 +48,27 @@
             the game using more sophisticated frameworks.
         </p>
     </section>
+
+    <!-- this is the footer -->
+     <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Christian Mihailescu. MIT License.</p>
+            <div class="footer-nav">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="communities.html">Communities</a></li>
+                </ul>
+            </div>
+            <p class="footer-social">
+                <a href="https://www.reddit.com/r/Magium/" target="_blank"><i class="fa-brands fa-reddit-alien"></i></a>
+                <a href="https://discordapp.com/invite/4z9yJ4k" target="_blank"><i class="fa-brands fa-discord"></i></a>
+                <a href="https://x.com/magium_games?lang=en-GB" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            </p>
+        </div>
+     </footer>
 </body>
 
 </html>
