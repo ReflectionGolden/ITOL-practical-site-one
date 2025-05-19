@@ -266,3 +266,99 @@ figure div {
     height: 512px;
     width: auto;
 }
+
+/* Contact Form Styles */
+
+.contact {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    margin: 80px auto;
+    max-width: 800px;
+    margin-bottom: 40vh;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.contact form {
+    line-height: 1.6;
+    margin: 0;
+}
+
+.contact input {
+    color: #666664;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Comunity Box Styles */
+
+.communities div {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    margin: 80px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.subreddit a {
+    text-decoration: none;
+    color: #e5e3df;
+}
+
+.subreddit a img {
+    display: inline;
+    vertical-align: middle;
+    border-radius: 50%;
+    height: 88px;
+    width: 88px;
+}
+
+.subreddit a h1 {
+    display: inline;
+    vertical-align: middle;
+}
+
+.main-discord a {
+    text-decoration: none;
+    color: #e5e3df;
+}
+
+.main-discord a img {
+    display: inline;
+    vertical-align: middle;
+    background-color: rgba(0, 128, 187, 0.219);
+    border-radius: 25%;
+    height: 88px;
+    width: 88px;
+}
+
+.main-discord a h1 {
+    display: inline;
+    vertical-align: middle;
+}
+
+.writers-discord a {
+    text-decoration: none;
+    color: #e5e3df;
+}
+
+.writers-discord a img {
+    display: inline;
+    vertical-align: middle;
+    background-image: linear-gradient(135deg, black, #630957);
+    border-radius: 25%;
+    height: 88px;
+    width: 88px;
+}
+
+.writers-discord a h1 {
+    display: inline;
+    vertical-align: middle;
+}
