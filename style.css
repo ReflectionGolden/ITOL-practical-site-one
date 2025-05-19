@@ -186,3 +186,83 @@ footer {
 .footer-social a:hover {
     color: #46A9E0;
 }
+
+/* gallery styles */
+
+table {
+    width: 100%;
+}
+
+tr {
+    padding: 0.5rem;
+}
+
+td {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#official-images {
+    display: flex;
+}
+
+.fan-art, .fan-art-2 {
+    display: flex;
+}
+
+figure img {
+    display: flex;
+    height: 512px;
+    width: auto;
+}
+
+.fan-art-2 figure img {
+    height: auto;
+    width: 512px;
+}
+
+figure figcaption {
+    text-align: center;
+    max-width: 512px;
+}
+
+figure {
+    display: inline-block;
+    width: fit-content;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 0.3rem;
+    box-shadow: 5px 5px 15px #000 ;
+}
+
+figure div {
+    display: flex;
+    height: 512px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: #e5e3df solid 1px;
+}
+
+#tribute-comic {
+    width: fit-content;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 0.3rem;
+    box-shadow: 5px 5px 15px #000 ;
+}
+
+#tribute-comic td {
+    display: block;
+    text-align: center;
+}
+
+#tribute-comic div {
+    border-bottom: #e5e3df solid 1px;
+}
+
+#tribute-comic img{
+    display: inline-block;
+    height: 512px;
+    width: auto;
+}
