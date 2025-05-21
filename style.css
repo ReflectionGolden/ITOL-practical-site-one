@@ -307,9 +307,14 @@ figure div {
     border-radius: 10px;
 }
 
-.subreddit a {
+.subreddit a, .main-discord a, .writers-discord a {
     text-decoration: none;
     color: #e5e3df;
+}
+
+.subreddit a h1, .main-discord a h1, .writers-discord a h1 {
+    display: inline;
+    vertical-align: middle;
 }
 
 .subreddit a img {
@@ -318,16 +323,6 @@ figure div {
     border-radius: 50%;
     height: 88px;
     width: 88px;
-}
-
-.subreddit a h1 {
-    display: inline;
-    vertical-align: middle;
-}
-
-.main-discord a {
-    text-decoration: none;
-    color: #e5e3df;
 }
 
 .main-discord a img {
@@ -339,16 +334,6 @@ figure div {
     width: 88px;
 }
 
-.main-discord a h1 {
-    display: inline;
-    vertical-align: middle;
-}
-
-.writers-discord a {
-    text-decoration: none;
-    color: #e5e3df;
-}
-
 .writers-discord a img {
     display: inline;
     vertical-align: middle;
@@ -358,7 +343,12 @@ figure div {
     width: 88px;
 }
 
-.writers-discord a h1 {
-    display: inline;
-    vertical-align: middle;
+/* Projects Description Styles */
+.magium-dev, .magium-recrystallized {
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 3rem auto;
+    padding: 10px;
+    max-width: 1000px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #000;
 }
